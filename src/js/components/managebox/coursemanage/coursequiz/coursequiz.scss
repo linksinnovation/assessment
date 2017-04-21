@@ -1,0 +1,27 @@
+.course-quiz{
+    padding: 10px;
+
+    .panel-group {
+        margin-bottom: 5px;
+    }
+
+    .panel-heading {
+        padding: 5px 15px;
+        height: 32px;
+    }
+
+    .panel-title {
+        margin-top: 3px;
+        font-size: 14px;
+    }
+
+    .heading-title{
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    textarea {
+        resize: none;
+    }
+}

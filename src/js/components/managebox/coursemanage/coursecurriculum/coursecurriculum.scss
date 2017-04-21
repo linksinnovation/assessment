@@ -1,0 +1,57 @@
+.course-curriculum {
+    padding: 10px;
+
+    input[type=file] {
+        display: block;
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
+
+    .form-upload{
+        margin-top: 10px;
+        text-align: center;
+        border: 1px dashed #cccccc;
+        border-radius: 5px;
+        padding: 10px;
+
+        .fa-3{
+            color: #879CAB;
+        }
+    }
+
+    .from-progress{
+        margin-top: 10px;
+        text-align: center;
+
+        .progress{
+            margin-bottom: 0px;
+        }
+    }
+
+    input.form-group {
+        width: 100%;
+        margin-bottom: 0px;
+    }
+
+    .panel-group {
+        margin-bottom: 5px;
+    }
+
+    .panel-heading {
+        padding: 5px 15px;
+
+        .form-group {
+            margin-bottom: 0px;
+        }
+    }
+
+    .panel-title {
+        margin-top: 3px;
+        font-size: 14px;
+    }
+
+    .p20px{
+        padding: 5px;
+    }
+}

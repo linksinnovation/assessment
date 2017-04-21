@@ -1,0 +1,25 @@
+.review-widget {
+    background: none !important;
+    padding: 20px 10px;
+    overflow: hidden;
+    float: left;
+    text-align: center;
+    width: 100%;
+    cursor: pointer;
+
+    .star {
+        color: #aaaaaa;
+
+        &:before {
+            padding: 0px 0px 0px 10px;
+            font-size: 24px;
+            font-family: 'FontAwesome';
+            display: inline-block;
+            content: "\f005";
+        }
+    }
+
+    .over{
+        color: #D94D38;
+    }
+}

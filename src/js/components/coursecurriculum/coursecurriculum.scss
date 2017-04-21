@@ -1,0 +1,292 @@
+.curriculum {
+    display: inline-block;
+    min-height: 250px;
+    min-width: 382px;
+
+    @media (min-width: 1200px) {
+        width: 1000px;
+    }
+
+    video {
+        min-width: 470px;
+        min-height: 264px;
+    }
+
+    .curriculum-content{
+        padding-bottom: 10px;
+    }
+
+    .discussions {
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+        textarea {
+            resize: none;
+        }
+
+        img {
+            width: 40px;
+            height: 40px;
+            padding: 3px;
+        }
+
+        hr {
+            margin-top: 8px;
+            margin-bottom: 8px;
+        }
+
+        a {
+            color: #B3B8C1;
+        }
+
+        .topic {
+            margin-top: 10px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            background-color: #fff;
+            border-radius: 10px;
+        }
+
+        .reply {
+            margin-top: 10px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            background-color: #eee;
+            border-radius: 10px;
+        }
+
+        .reply-box {
+            padding-top: 10px;
+        }
+
+        .btn-reply {
+            font-size: 12px;
+            color: #B3B8C1;
+        }
+
+        .topic-header {
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .topic-postdate {
+            font-size: 12px;
+            font-weight: bold;
+            color: #B3B8C1;
+        }
+
+        .vcenter {
+            display: inline-block;
+            text-align: left;
+            vertical-align: middle;
+            float: none;
+        }
+
+        .no-padding {
+            padding: 0px;
+        }
+
+        .remove-topic{
+            padding-left: 10px;
+        }
+    }
+
+    .details {
+        margin-left: 5px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: left;
+        border: 0px;
+        word-wrap: break-word;
+    }
+
+    .instructor-title {
+        font-size: 14px;
+        color: #000;
+        font-weight: 700;
+        letter-spacing: 0.3px;
+        border-bottom: 1px solid #e5e5e5;
+        text-align: left;
+    }
+
+    .instructor-detail {
+        img {
+            margin-top: 5px;
+            margin-bottom: 5px;
+            border-radius: 50px;
+            width: 100px;
+            height: 100px;
+        }
+
+        .instructor-name {
+            font-weight: 600;
+            color: #84a949;
+        }
+
+        .instructor-profile {
+            margin-top: 10px;
+            text-align: left;
+            ul {
+                list-style: disc;
+            }
+        }
+    }
+
+    .curriculum-items-list {
+        background: #ffffff;
+        height: 100%;
+        overflow: hidden;
+        -webkit-box-align: center;
+        -webkit-align-items: stretch;
+        -ms-flex-align: stretch;
+        align-items: stretch;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        text-align: left;
+
+        .curriculum-section-container {
+            width: 100%;
+            overflow: hidden;
+
+            .section-title {
+                padding: 2px 0 0;
+                border-bottom: 1px solid #E0E0E0;
+                background-color: #EDEDED;
+
+                h5 {
+                    margin: 10px 15px;
+                    font-weight: 700;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+    .curriculum-item-container {
+        .curriculum-item {
+            position: relative;
+            border-bottom: 1px solid #f0f0f0;
+            display: block;
+            -webkit-transition: background 0.15s ease-in-out;
+            -moz-transition: background 0.15s ease-in-out;
+            -o-transition: background 0.15s ease-in-out;
+            transition: background 0.15s ease-in-out;
+            text-decoration: none;
+            &:hover{
+                color: #335d82;
+                background: #f1f1f1;
+            }
+        }
+
+        .ci-progress-container {
+            background: #fff;
+            border: 1px solid #e7e7e7;
+            border-radius: 50%;
+            left: 10px;
+            line-height: 0;
+            padding: 1px;
+            position: absolute;
+            top: 9px;
+            z-index: 1;
+            width: 20px;
+            height: 20px;
+
+            .ci-progress-mask:before {
+                font-family: 'FontAwesome';
+                content: "\f00c";
+                background: #54b551;
+                border-radius: 50%;
+                float: left;
+                height: 16px;
+                width: 16px;
+                color: #fff;
+                text-align: center;
+                line-height: 18px;
+                font-size: 11px;
+            }
+        }
+
+        .ci-info {
+            border-left: 1px solid #f0f0f0;
+            margin-left: 20px;
+            padding: 6px 0 10px 10px;
+            position: relative;
+
+            .ci-title {
+                color: #888888;
+                -webkit-transition: color 0.15s ease-in-out;
+                -moz-transition: color 0.15s ease-in-out;
+                -o-transition: color 0.15s ease-in-out;
+                transition: color 0.15s ease-in-out;
+                font-size: 13px;
+                font-weight: 500;
+                padding: 3px 25px 0 5px;
+                line-height: 18px;
+                margin: 0;
+            }
+
+            .ci-details-container {
+                margin-top: 3px;
+                font-size: 14px;
+
+                .ci-details {
+                    color: #bbbbbb;
+                    -webkit-transition: color 0.15s ease-in-out;
+                    -moz-transition: color 0.15s ease-in-out;
+                    -o-transition: color 0.15s ease-in-out;
+                    transition: color 0.15s ease-in-out;
+                    display: inline-block;
+                    padding: 0 6px;
+                }
+            }
+        }
+    }
+
+    .flowplayer .fp-playlist {
+        transition: .2s ease-in;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        position: absolute;
+        right: 10px;
+        bottom: 40px;
+        width: 0;
+        overflow: hidden;
+        font-size: 12px;
+        font-weight: bold;
+        z-index: 12;
+    }
+    .flowplayer .fp-playlist a {
+        display: block;
+        list-style: none;
+        background-color: #333;
+        background-color: rgba(51, 51, 51, 0.6);
+        margin: 5px;
+        padding: 5px;
+        border-radius: 3px;
+        color: #fff;
+        text-shadow: 0 0 2px #000;
+        overflow: hidden;
+        text-align: center;
+    }
+    .flowplayer .fp-playlist a.is-active {
+        background-color: #00a7c8;
+        background-color: rgba(0, 167, 200, 0.6);
+        cursor: default;
+    }
+    .flowplayer .fp-playlist a.is-active:hover {
+        background-color: #00a7c8;
+        background-color: rgba(0, 167, 200, 0.6);
+    }
+    .flowplayer .fp-playlist a:hover {
+        background-color: #444;
+        background-color: rgba(51, 51, 51, 0.8);
+    }
+    .flowplayer.is-mouseover .fp-playlist,
+    .flowplayer.is-splash .fp-playlist {
+        width: 80px;
+    }
+    .flowplayer.is-disabled .fp-playlist {
+        width: 0;
+    }
+}

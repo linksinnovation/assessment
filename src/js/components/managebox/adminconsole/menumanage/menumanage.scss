@@ -1,0 +1,38 @@
+.menumanage {
+    padding: 10px;
+
+    input.form-group {
+        width: 100%;
+    }
+
+    .panel-group {
+        margin-bottom: 5px;
+    }
+
+    .panel-heading {
+        padding: 5px 15px;
+
+        .form-group {
+            margin-bottom: 0px;
+        }
+    }
+
+    .panel-title {
+        margin-top: 3px;
+        font-size: 14px;
+    }
+
+    .sortsubmenu {
+        .form-group {
+            margin-bottom: 0px;
+        }
+    }
+
+    .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+        width: 75px;
+    }
+
+    .iconpicker{
+        padding-right: 5px;
+    }
+}

@@ -1,0 +1,29 @@
+.user-select {
+    border: 1px solid #bbb;
+    margin-top: 10px;
+
+    img {
+        width: 90px;
+        height: 90px;
+    }
+
+    .no-padding{
+        padding: 0px;
+    }
+
+    .vcenter {
+        display: flex;
+        align-items: center;
+        background-color: #FFFFFF;
+    }
+
+    .col-detail{
+        color: #3b5998;
+        font-size: 14px;
+        font-weight: bold;
+
+        .grant {
+            color: #9197a3;
+        }
+    }
+}

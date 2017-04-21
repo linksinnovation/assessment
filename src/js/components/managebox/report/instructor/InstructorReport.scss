@@ -1,0 +1,35 @@
+.instructor-report{
+    display: inline-block;
+    min-height: 600px;
+    text-align: left;
+    background-color: #FFFFFF;
+    border: 1px solid #bbbbbb;
+    position: relative;
+    width: 1000px;
+    min-width: 1000px;
+    padding: 10px;
+
+    .title{
+        margin-top: 20px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    .condition-box{
+        padding-top: 10px;
+        padding-bottom: 30px;
+        .box{
+            width: 600px;
+            margin: 0 auto;
+        }
+    }
+
+    .summary-report{
+        font-weight: bold;
+
+        .name{
+            text-align: right;
+        }
+    }
+}

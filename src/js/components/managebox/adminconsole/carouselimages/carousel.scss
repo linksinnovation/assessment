@@ -1,0 +1,19 @@
+.carousel-images{
+    padding: 20px;
+
+    .slide{
+        margin-bottom: 10px;
+        background-color: #000;
+
+        img{
+            width: 100%;
+            cursor: pointer;
+            opacity: 0.5;
+
+            &:hover{
+                opacity: 1;
+            }
+
+        }
+    }
+}

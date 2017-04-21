@@ -1,0 +1,12 @@
+**/target
+**/.DS_Store
+**/node_modules
+**/src/main/webapp/assets/**
+
+**/nb-configuration.xml
+**/nbactions.xml
+
+**/*.idea
+**/*.iml
+**/.h2.server.properties
+**/licenseheader.txt

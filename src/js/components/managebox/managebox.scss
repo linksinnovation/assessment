@@ -1,0 +1,91 @@
+.manage-box {
+
+    @media (min-width: 1200px) {
+        .main {
+            width: 1000px;
+            padding-left: 195px;
+            .side-nav{
+                position: absolute;
+                width: 195px;
+            }
+        }
+    }
+    @media (min-width: 768px) and (max-width: 1199px) {
+        .main {
+            width: 680px;
+            padding-left: 195px;
+            .side-nav{
+                position: absolute;
+                width: 195px;
+            }
+        }
+    }
+    @media (max-width: 767px) {
+        .main {
+            width: 343px;
+        }
+    }
+
+    .main {
+        display: inline-block;
+        min-height: 600px;
+        text-align: left;
+        background-color: #FFFFFF;
+        border: 1px solid #bbbbbb;
+        position: relative;
+
+        .side-nav {
+            top: 0;
+            left: 0;
+            bottom: 0;
+            background: #fff;
+            overflow: hidden;
+            padding-bottom: 20px;
+
+            li {
+                color: #7f8689;
+                font-weight: bold;
+                display: block !important;
+                margin: 0 !important;
+
+                a {
+                    font-weight: normal;
+                    color: #5589b6;
+                    display: block;
+
+                    span {
+                        padding: 0;
+                    }
+                }
+
+                span {
+                    padding: 20px 15px 0px;
+                }
+
+                i {
+                    width: 24px;
+                    padding-left: 0px;
+                    padding-right: 5px;
+                }
+
+                * {
+                    display: inline-block;
+                    padding: 3px 15px;
+                }
+
+                &:hover {
+                    a {
+                        color: #fff;
+                        background: #798eab !important;
+                        border-color: #798EAB;
+                    }
+                }
+            }
+        }
+
+        .form-wrapper{
+            min-height: 598px;
+            background-color: #f1f3f6;
+        }
+    }
+}
